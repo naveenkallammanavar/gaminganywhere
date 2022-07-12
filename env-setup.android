@@ -1,4 +1,6 @@
 #!/bin/sh
+
+echo "hello all"
 export KERNEL=`uname -s | tr A-Z a-z`
 export ANDROID_HOME=$HOME/android/android-sdk/.
 export NDK_ROOT=$HOME/android/android-ndk/.
